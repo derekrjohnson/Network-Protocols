@@ -7,3 +7,5 @@ Protocol suite - a set of protocols designed to work together. TCP/IP For exampl
 
 ![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/30d776cb-117d-4c29-b39e-7cff6cfdbd2d)
 
+TCP has responsibility to ensure a secure connection at the session layer with the 3 way handshake.
+
