@@ -29,15 +29,21 @@ MAC addresses are meant to be "unique," but they're actually
 easily changed and rarely verified. What problems could this
 cause?
 
-o Bypass MAC-based network access controls
-• Switches and/or Wireless AP’s may restrict access to registered MACs only
-o Impersonating another user/system
-• Harder to trace actions back to user/system
-o Denial of Service
-• Can cause network issues and potentially prevent access to system being spoofed
-o Redirect Traffic
-• Spoofing default gateway or server can result in traffic being
-redirected to attacker
+* Bypass MAC-based network access controls
+* Switches and/or Wireless AP’s may restrict access to registered MACs only
+* Impersonating another user/system
+* Harder to trace actions back to user/system
+* Denial of Service
+* Can cause network issues and potentially prevent access to system being spoofed  direct Traffic
+* Spoofing default gateway or server can result in traffic being redirected to attacker
+
+### Arp Spoofing
+
+* A malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network.
+* This results in the linking of an attacker’s MAC address with the IP address of a legitimate computer or server on the network.
+* The attacker’s MAC address will begin receiving any data that is intended for that IP address.
+* ARP spoofing attacks can only occur on local area networks (within layer 2 Broadcast Domain)
+
 
 
 
