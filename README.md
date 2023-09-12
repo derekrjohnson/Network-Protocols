@@ -9,5 +9,7 @@ Protocol suite - a set of protocols designed to work together. TCP/IP For exampl
 
 TCP has responsibility to ensure a secure connection at the session layer with the 3 way handshake.
 
+Carrier Sense Multiple Access With Collision Detection - Computers wait a random duration of time to send messages over the wire again after a collision occurs.
+
 
 
