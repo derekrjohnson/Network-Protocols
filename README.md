@@ -11,5 +11,7 @@ TCP has responsibility to ensure a secure connection at the session layer with t
 
 Carrier Sense Multiple Access With Collision Detection - Computers wait a random duration of time to send messages over the wire again after a collision occurs.
 
+First 3 bytes of Ethernet header tells you who manufactored the network interface card.
+
 
 
