@@ -23,6 +23,23 @@ ARP - Adress resolution protocol, who has this IP? This broadcast is sent out to
 
 ARP broadcasts clutter the netowrk, and is inefficent. This is why ARP information is cahched by the systems on the LAN both endpoints and routers.
 
+### MAC Spoofing
+
+MAC addresses are meant to be "unique," but they're actually
+easily changed and rarely verified. What problems could this
+cause?
+
+o Bypass MAC-based network access controls
+• Switches and/or Wireless AP’s may restrict access to registered MACs only
+o Impersonating another user/system
+• Harder to trace actions back to user/system
+o Denial of Service
+• Can cause network issues and potentially prevent access to system being spoofed
+o Redirect Traffic
+• Spoofing default gateway or server can result in traffic being
+redirected to attacker
+
+
 
 
 
