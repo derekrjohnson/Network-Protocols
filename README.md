@@ -44,6 +44,9 @@ cause?
 * The attacker’s MAC address will begin receiving any data that is intended for that IP address.
 * ARP spoofing attacks can only occur on local area networks (within layer 2 Broadcast Domain)
 
+![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/c22679e5-d9af-45d2-90d4-6ccbc57bb3f2)
+
+
 
 
 
