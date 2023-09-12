@@ -19,7 +19,9 @@ First 3 bytes of Ethernet header tells you who manufactored the network interfac
 
 ARP - Adress resolution protocol, who has this IP? This broadcast is sent out to the entire LAN. 
 
-![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/57f867ef-50df-4ee9-9443-837456a1af11)
+![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/57f867ef-50df-4ee9-9443-837456a1af11
+
+ARP broadcasts clutter the netowrk, and is inefficent. This is why ARP information is cahched by the systems on the LAN both endpoints and routers.
 
 
 
