@@ -48,6 +48,18 @@ cause?
 
 ![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/4baa6507-0d1e-48c8-a502-136a85024418)
 
+### NAT
+
+When a packet of data is leaving a Local Area Network, the private destination IP won't work to resolve a response. To solve this the last router before data leaves the LAN uses NAT Network Address Translation to assign the source a public facing address. NAT stops data transformation from going directly to a private address/system.
+
+### NAT - IP Masquerading 
+
+### PAT - Port address translation
+
+The router starts going to layer 4 to rewrite the internal port.
+
+
+
 
 
 
