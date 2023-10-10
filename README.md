@@ -58,6 +58,15 @@ When a packet of data is leaving a Local Area Network, the private destination I
 
 The router starts going to layer 4 to rewrite the internal port.
 
+### IPv6
+
+IPV6 occupies 128 bytes. Leading zeros can be ommitted and it is represented with ::. You can only use the :: once to represent zeros. 
+No broadcast address, makes DHCP and ARP hard. Netowrk discovery is used instead of ARP. 
+fe80:: is considered to be local.
+48 bits for router prefix, 16 bits subnet id, 64 bits for interface ID.
+![image](https://github.com/derekrjohnson/Network-Protocols/assets/142181223/eb51e3e5-9192-454e-a149-6fa217f96b5b)
+
+
 
 
 
