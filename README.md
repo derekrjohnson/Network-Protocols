@@ -69,13 +69,13 @@ fe80:: is considered to be local.
 ### Lab 7-1 Notes
 
 Creating an address pool in packet tracer.
-'Router(config)#ip nat pool champ 216.93.144.10 216.93.144.10 netmask 255.255.255.0'
+```Router(config)#ip nat pool champ 216.93.144.10 216.93.144.10 netmask 255.255.255.0```
 
 Creating an access-list in packet tracer.
-'Router(config)#access-list 1 permit 192.168.0.0 0.0.255.255'
+```Router(config)#access-list 1 permit 192.168.0.0 0.0.255.255```
 
 Finally, run the following command which tells the router any 192.168 addressw will be translated to 216.93.144.10 when packets leave the LAN.
-'Router(config)#ip nat inside source list 1 pool champ overload'
+```Router(config)#ip nat inside source list 1 pool champ overload```
 
 
 
