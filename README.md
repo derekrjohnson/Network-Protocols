@@ -77,6 +77,12 @@ Creating an access-list in packet tracer.
 Finally, run the following command which tells the router any 192.168 addressw will be translated to 216.93.144.10 when packets leave the LAN.
 ```Router(config)#ip nat inside source list 1 pool champ overload```
 
+### Mid term review
+What protocol uses link state?
+OSPF - Open shortest path first.
+
+
+
 
 
 
