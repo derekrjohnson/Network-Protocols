@@ -81,6 +81,10 @@ Finally, run the following command which tells the router any 192.168 addressw w
 What protocol uses link state?
 OSPF - Open shortest path first.
 
+How does ARP work?
+
+
+
 
 
 
